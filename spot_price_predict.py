@@ -119,4 +119,4 @@ def wrapper(instanceList, ProductDescriptionList, region, numberOfDays = 7):
 ## enter the instance types you need below as list!
 ## give only one product description for one run
 df = wrapper(['m4.large', 'm4.xlarge'],['Linux/UNIX (Amazon VPC)'], 'us-west-2')
-
+df
